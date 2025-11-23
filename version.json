@@ -1,6 +1,12 @@
 {
-    "latest": "1.0.0",
+    "latest": "1.0.1",
     "changelog": {
+        "1.0.1": [
+            "🔄 Sistema de versiones automático implementado",
+            "🌐 Verificación online de actualizaciones",
+            "🐛 Corrección definitiva de notificaciones duplicadas",
+            "⚡ Mejoras de rendimiento en toasts"
+        ],
         "1.0.0": [
             "✨ Biblia completa Reina Valera 1909",
             "📚 Estudios bíblicos con formato mejorado",
