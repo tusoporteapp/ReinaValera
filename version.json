@@ -1,0 +1,19 @@
+{
+    "latest": "1.0.0",
+    "changelog": {
+        "1.0.0": [
+            "✨ Biblia completa Reina Valera 1909",
+            "📚 Estudios bíblicos con formato mejorado",
+            "🕯️ Devocionales con contenido enriquecido",
+            "⭐ Sistema de favoritos con contador",
+            "📊 Seguimiento de progreso de lectura",
+            "🔍 Búsqueda avanzada de versículos",
+            "✨ Maná del día con versículo aleatorio",
+            "📱 Navegación 'Atrás' del dispositivo",
+            "ℹ️ Modal 'Acerca de' informativo",
+            "🔄 Sistema de actualización inteligente"
+        ]
+    },
+    "minVersion": "1.0.0",
+    "updateUrl": "https://github.com/tu-usuario/santa-biblia-rv1909"
+}
