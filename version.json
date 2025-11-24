@@ -1,6 +1,12 @@
 {
-    "latest": "1.2.2",
+    "latest": "1.3.0",
     "changelog": {
+        "1.3.0": [
+            "✨ Selección múltiple de versículos para copiar, compartir y favoritos",
+            "📝 Creación de notas libres y estudios personales",
+            "⚡ Selección de versículos más rápida y fluida",
+            "🛠️ Mejoras generales en la interfaz de usuario"
+        ],
         "1.2.2": [
             "👆 Mejora en la selección de versículos (menú de opciones)",
             "🛠️ Ajustes de usabilidad en notas",
