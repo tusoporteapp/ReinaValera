@@ -1,6 +1,12 @@
 {
-    "latest": "1.1.1",
+    "latest": "1.2.0",
     "changelog": {
+        "1.2.0": [
+            "✨ Nueva sección 'Mi Colección' con pestañas organizadas",
+            "📝 Sistema de notas completamente renovado",
+            "🎨 Nuevo diseño premium para el editor de notas",
+            "📱 Mejoras en la organización de favoritos y estudios"
+        ],
         "1.1.1": [
             "📝 Nuevo botón directo para crear notas en versículos",
             "🐛 Corrección de notificaciones duplicadas",
