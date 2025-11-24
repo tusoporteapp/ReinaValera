@@ -1,6 +1,17 @@
 {
-    "latest": "1.2.0",
+    "latest": "1.2.2",
     "changelog": {
+        "1.2.2": [
+            "👆 Mejora en la selección de versículos (menú de opciones)",
+            "🛠️ Ajustes de usabilidad en notas",
+            "📚 Documentación interna del proyecto actualizada"
+        ],
+        "1.2.1": [
+            "👤 Corrección en pantalla de bienvenida y personalización",
+            "🗑️ Nueva función para eliminar notas personales",
+            "🐛 Corrección en botón de compartir favoritos",
+            "✨ Mejoras de interfaz en modales"
+        ],
         "1.2.0": [
             "✨ Nueva sección 'Mi Colección' con pestañas organizadas",
             "📝 Sistema de notas completamente renovado",
