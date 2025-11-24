@@ -1,6 +1,11 @@
 {
-    "latest": "1.0.1",
+    "latest": "1.1.1",
     "changelog": {
+        "1.1.1": [
+            "📝 Nuevo botón directo para crear notas en versículos",
+            "🐛 Corrección de notificaciones duplicadas",
+            "✨ Mejoras generales de estabilidad"
+        ],
         "1.0.1": [
             "🔄 Sistema de versiones automático implementado",
             "🌐 Verificación online de actualizaciones",
