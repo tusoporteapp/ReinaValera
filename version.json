@@ -1,6 +1,6 @@
 {
-  "version": "1.9.0",
-  "build": 11,
+  "version": "1.10.0",
+  "build": 12,
   "forceUpdate": false,
-  "description": "Actualización de marca y mejoras en compartir versículos."
+  "description": "Mejora de navegación: El botón 'Atrás' de tu dispositivo ahora funciona correctamente dentro de la app."
 }
