@@ -1,0 +1,6 @@
+{
+  "version": "1.1.0",
+  "build": 2,
+  "forceUpdate": false,
+  "description": "Carga progresiva: App usable instantáneamente con descarga en segundo plano"
+}

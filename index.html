@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Biblia App</title>
+    
+    <!-- Estilos Críticos para la carga inicial (Pre-React) -->
+    <style>
+      /* Deshabilitar resaltado de tap en móviles y zoom por doble toque */
+      * { 
+        -webkit-tap-highlight-color: transparent; 
+        box-sizing: border-box; 
+        touch-action: manipulation; /* CRÍTICO: Previene el zoom de doble tap y elimina el delay de 300ms */
+      }
+      body { overscroll-behavior-y: none; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+      
+      /* Ocultar scrollbars */
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+      /* LOADER ESTATICO (Se muestra antes de que cargue React) */
+      #app-loader {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fdfbf7; /* Color paper-light */
+        transition: opacity 0.3s ease-out;
+      }
+
+      /* Soporte nativo para modo oscuro antes de que cargue Tailwind */
+      @media (prefers-color-scheme: dark) {
+        #app-loader { background-color: #121212; }
+        #app-loader .loader-text { color: #ffffff !important; }
+        #app-loader .loader-subtext { color: #9ca3af !important; }
+      }
+
+      .loader-logo {
+        width: 96px;
+        height: 96px;
+        background-color: #3b82f6; /* Primary Blue */
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 48px;
+        font-weight: bold;
+        font-family: serif;
+        box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.3);
+        margin-bottom: 24px;
+        animation: pulse-soft 2s infinite;
+      }
+
+      .loader-text {
+        font-size: 24px;
+        font-weight: bold;
+        color: #111827;
+        margin-bottom: 8px;
+      }
+
+      .loader-subtext {
+        font-size: 14px;
+        color: #6b7280;
+        animation: blink 1.5s infinite;
+      }
+
+      @keyframes pulse-soft {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(0.98); opacity: 0.9; }
+      }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              paper: {
+                light: '#fdfbf7',
+                dark: '#1a1a1a',
+              },
+              ink: {
+                light: '#2d3748',
+                dark: '#e2e8f0',
+              },
+              primary: '#3b82f6',
+            },
+            fontFamily: {
+              serif: ['Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+              sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-D6RDJ3-R.js"></script>
+</head>
+  <body class="bg-paper-light dark:bg-paper-dark text-ink-light dark:text-ink-dark transition-colors duration-300 overflow-hidden fixed inset-0">
+    <!-- El contenido dentro de ROOT se muestra INMEDIATAMENTE mientras carga JS -->
+    <div id="root" class="h-full w-full flex flex-col">
+      <div id="app-loader">
+        <div class="loader-logo">B</div>
+        <div class="loader-text">Biblia App Nativa</div>
+        <div class="loader-subtext">Cargando recursos...</div>
+      </div>
+    </div>
+</body>
+</html>
