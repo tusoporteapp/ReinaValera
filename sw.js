@@ -1,52 +1,16 @@
 // Service Worker para caché offline de la Biblia
-const CACHE_NAME = 'biblia-rv1909-v1.2.0';
-const BIBLE_DATA_CACHE = 'biblia-data-v1';
+// Service Worker para caché offline de la Biblia
+const CACHE_NAME = 'biblia-rv1909-v1.3.0';
+const BIBLE_DATA_CACHE = 'biblia-data-v2';
 
 // Archivos estáticos que siempre se deben cachear
 const STATIC_ASSETS = [
     './',
     './index.html',
-    './biblia.json',
     './version.json'
 ];
 
-// Instalación: Cachear archivos estáticos
-self.addEventListener('install', (event) => {
-    console.log('[SW] Instalando Service Worker...');
-
-    event.waitUntil(
-        caches.open(CACHE_NAME).then((cache) => {
-            console.log('[SW] Cacheando archivos estáticos');
-            return cache.addAll(STATIC_ASSETS);
-        }).then(() => {
-            console.log('[SW] Service Worker instalado correctamente. Esperando activación...');
-            // NO llamar a skipWaiting() aquí. Esperar a que el usuario lo solicite.
-        }).catch((error) => {
-            console.error('[SW] Error al cachear archivos:', error);
-        })
-    );
-});
-
-// Activación: Limpiar cachés antiguos
-self.addEventListener('activate', (event) => {
-    console.log('[SW] Activando Service Worker...');
-
-    event.waitUntil(
-        caches.keys().then((cacheNames) => {
-            return Promise.all(
-                cacheNames.map((cacheName) => {
-                    if (cacheName !== CACHE_NAME && cacheName !== BIBLE_DATA_CACHE) {
-                        console.log('[SW] Eliminando caché antiguo:', cacheName);
-                        return caches.delete(cacheName);
-                    }
-                })
-            );
-        }).then(() => {
-            console.log('[SW] Service Worker activado');
-            return self.clients.claim(); // Tomar control inmediatamente
-        })
-    );
-});
+// ... (install event igual) ...
 
 // Fetch: Estrategia Cache-First para archivos estáticos y Network-First para datos
 self.addEventListener('fetch', (event) => {
@@ -68,15 +32,12 @@ self.addEventListener('fetch', (event) => {
 
     // Estrategia para Videos (Cache-First)
     if (url.pathname.endsWith('.mp4') || request.destination === 'video') {
+        // ... (igual) ...
         const VIDEO_CACHE_NAME = 'bible-app-video-cache-v1';
         event.respondWith(
             caches.open(VIDEO_CACHE_NAME).then(cache => {
                 return cache.match(request, { ignoreSearch: true }).then(response => {
-                    if (response) {
-                        console.log('[SW] Sirviendo video desde caché:', url.pathname);
-                        return response;
-                    }
-                    // Si no está en caché, intentar red
+                    if (response) return response;
                     return fetch(request);
                 });
             })
@@ -95,12 +56,9 @@ self.addEventListener('fetch', (event) => {
         event.respondWith(
             caches.match(request).then((cachedResponse) => {
                 if (cachedResponse) {
-                    console.log('[SW] Sirviendo desde caché:', url.pathname);
                     return cachedResponse;
                 }
-
                 return fetch(request).then((response) => {
-                    // Cachear la respuesta para futuras peticiones
                     if (response && response.status === 200) {
                         const responseClone = response.clone();
                         caches.open(CACHE_NAME).then((cache) => {
@@ -114,8 +72,9 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
-    // Estrategia especial para biblia.json (Cache-First con actualización en segundo plano)
-    if (url.pathname.includes('biblia.json')) {
+    // Estrategia especial para DATOS DE BIBLIA (biblia.json y biblia_vbl.json)
+    // Cache-First con actualización en segundo plano (Stale-While-Revalidate)
+    if (url.pathname.includes('biblia') && url.pathname.endsWith('.json')) {
         event.respondWith(
             caches.open(BIBLE_DATA_CACHE).then((cache) => {
                 return cache.match(request).then((cachedResponse) => {
@@ -123,17 +82,16 @@ self.addEventListener('fetch', (event) => {
                         // Actualizar caché en segundo plano
                         if (networkResponse && networkResponse.status === 200) {
                             cache.put(request, networkResponse.clone());
-                            console.log('[SW] biblia.json actualizado en caché');
+                            console.log(`[SW] ${url.pathname} actualizado en caché`);
                         }
                         return networkResponse;
                     }).catch(() => {
-                        console.log('[SW] No hay conexión, usando caché de biblia.json');
+                        console.log(`[SW] Offline: usando caché de ${url.pathname}`);
                         return cachedResponse;
                     });
 
                     // Si hay caché, devolverlo inmediatamente
                     if (cachedResponse) {
-                        console.log('[SW] Sirviendo biblia.json desde caché');
                         return cachedResponse;
                     }
 

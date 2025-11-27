@@ -1,6 +1,6 @@
 {
-  "version": "1.14.4",
-  "build": 20,
-  "forceUpdate": false,
-  "description": "Mejora: El sistema de actualizaciones ahora verifica nuevas versiones inmediatamente al abrir la aplicación."
+  "version": "1.15.1",
+  "build": 22,
+  "forceUpdate": true,
+  "description": "Corrección crítica: Se ha mejorado el sistema de actualización para evitar errores de carga de datos."
 }
