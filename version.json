@@ -1,6 +1,6 @@
 {
-  "version": "1.4.0",
-  "build": 6,
+  "version": "1.5.0",
+  "build": 7,
   "forceUpdate": false,
-  "description": "Nuevo sistema de progreso de lectura, racha diaria y felicitaciones. Corrección de versión en ajustes."
+  "description": "Corrección crítica de reproducción de videos offline y eliminación directa sin confirmación."
 }

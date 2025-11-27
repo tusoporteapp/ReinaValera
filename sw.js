@@ -58,8 +58,29 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
-    // Ignorar requests a otros dominios
+    // Ignorar requests a otros dominios, EXCEPTO videos
     if (url.origin !== location.origin) {
+        // Permitir interceptar videos mp4 para servirlos desde caché
+        if (!(url.pathname.endsWith('.mp4') || request.destination === 'video')) {
+            return;
+        }
+    }
+
+    // Estrategia para Videos (Cache-First)
+    if (url.pathname.endsWith('.mp4') || request.destination === 'video') {
+        const VIDEO_CACHE_NAME = 'bible-app-video-cache-v1';
+        event.respondWith(
+            caches.open(VIDEO_CACHE_NAME).then(cache => {
+                return cache.match(request, { ignoreSearch: true }).then(response => {
+                    if (response) {
+                        console.log('[SW] Sirviendo video desde caché:', url.pathname);
+                        return response;
+                    }
+                    // Si no está en caché, intentar red
+                    return fetch(request);
+                });
+            })
+        );
         return;
     }
 
