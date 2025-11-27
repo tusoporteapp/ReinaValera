@@ -1,6 +1,6 @@
 {
-  "version": "1.15.3",
-  "build": 24,
+  "version": "1.16.0",
+  "build": 25,
   "forceUpdate": true,
-  "description": "Mejora: Se ha restaurado la sección de 'Versículo del Día' en la pantalla de inicio."
+  "description": "Nueva función: Escuchar capítulo completo con voz natural (offline). Actualización de créditos y licencias."
 }
