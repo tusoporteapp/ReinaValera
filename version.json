@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "build": 4,
+  "version": "1.4.0",
+  "build": 6,
   "forceUpdate": false,
-  "description": "Compartir simplificado: Solo texto, sin imágenes. 100% compatible con AppCreator 24"
+  "description": "Nuevo sistema de progreso de lectura, racha diaria y felicitaciones. Corrección de versión en ajustes."
 }
