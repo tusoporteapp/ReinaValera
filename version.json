@@ -1,6 +1,6 @@
 {
-  "version": "1.5.0",
-  "build": 7,
+  "version": "1.6.0",
+  "build": 8,
   "forceUpdate": false,
-  "description": "Corrección crítica de reproducción de videos offline y eliminación directa sin confirmación."
+  "description": "Nuevo gestor de descargas en segundo plano con barra de progreso visual y notificaciones."
 }
