@@ -1,6 +1,6 @@
 {
-  "version": "1.6.0",
-  "build": 8,
+  "version": "1.7.0",
+  "build": 9,
   "forceUpdate": false,
-  "description": "Nuevo gestor de descargas en segundo plano con barra de progreso visual y notificaciones."
+  "description": "Sistema de actualizaciones automáticas integrado. La app ahora te avisará cuando haya mejoras disponibles."
 }
