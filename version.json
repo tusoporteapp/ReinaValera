@@ -1,6 +1,6 @@
 {
-  "version": "1.14.0",
-  "build": 16,
-  "forceUpdate": false,
-  "description": "¡Bienvenido! Ahora puedes elegir tu versión preferida de la Biblia al iniciar la aplicación por primera vez."
+  "version": "1.14.1",
+  "build": 17,
+  "forceUpdate": true,
+  "description": "Corrección importante: Se solucionó un problema que impedía ver los versículos de la Biblia Libre (VBL)."
 }
