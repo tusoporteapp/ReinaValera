@@ -1,6 +1,6 @@
 {
-  "version": "1.15.2",
-  "build": 23,
+  "version": "1.15.3",
+  "build": 24,
   "forceUpdate": true,
-  "description": "Corrección urgente: Se solucionó un problema que impedía iniciar la aplicación."
+  "description": "Mejora: Se ha restaurado la sección de 'Versículo del Día' en la pantalla de inicio."
 }
