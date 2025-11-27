@@ -1,6 +1,6 @@
 {
-  "version": "1.14.2",
-  "build": 18,
+  "version": "1.14.4",
+  "build": 20,
   "forceUpdate": false,
-  "description": "Corrección: La selección inicial de versión ahora se aplica correctamente de inmediato."
+  "description": "Mejora: El sistema de actualizaciones ahora verifica nuevas versiones inmediatamente al abrir la aplicación."
 }
