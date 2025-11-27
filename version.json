@@ -1,6 +1,6 @@
 {
-  "version": "1.10.0",
-  "build": 12,
+  "version": "1.11.0",
+  "build": 13,
   "forceUpdate": false,
-  "description": "Mejora de navegación: El botón 'Atrás' de tu dispositivo ahora funciona correctamente dentro de la app."
+  "description": "Corrección crítica: Mejora en el proceso de actualización para evitar errores al reiniciar la app."
 }

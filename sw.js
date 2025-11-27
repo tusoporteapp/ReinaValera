@@ -19,8 +19,8 @@ self.addEventListener('install', (event) => {
             console.log('[SW] Cacheando archivos estáticos');
             return cache.addAll(STATIC_ASSETS);
         }).then(() => {
-            console.log('[SW] Service Worker instalado correctamente');
-            return self.skipWaiting(); // Activar inmediatamente
+            console.log('[SW] Service Worker instalado correctamente. Esperando activación...');
+            // NO llamar a skipWaiting() aquí. Esperar a que el usuario lo solicite.
         }).catch((error) => {
             console.error('[SW] Error al cachear archivos:', error);
         })
