@@ -1,6 +1,6 @@
 {
-  "version": "1.15.1",
-  "build": 22,
+  "version": "1.15.2",
+  "build": 23,
   "forceUpdate": true,
-  "description": "Corrección crítica: Se ha mejorado el sistema de actualización para evitar errores de carga de datos."
+  "description": "Corrección urgente: Se solucionó un problema que impedía iniciar la aplicación."
 }
