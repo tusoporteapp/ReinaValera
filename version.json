@@ -1,6 +1,6 @@
 {
-  "version": "1.1.1",
-  "build": 3,
+  "version": "1.2.0",
+  "build": 4,
   "forceUpdate": false,
-  "description": "Corrección: Compartir imágenes funciona correctamente en AppCreator 24 y aplicaciones móviles"
+  "description": "Compartir simplificado: Solo texto, sin imágenes. 100% compatible con AppCreator 24"
 }
