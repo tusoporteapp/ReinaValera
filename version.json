@@ -1,6 +1,6 @@
 {
-  "version": "1.14.1",
-  "build": 17,
-  "forceUpdate": true,
-  "description": "Corrección importante: Se solucionó un problema que impedía ver los versículos de la Biblia Libre (VBL)."
+  "version": "1.14.2",
+  "build": 18,
+  "forceUpdate": false,
+  "description": "Corrección: La selección inicial de versión ahora se aplica correctamente de inmediato."
 }
