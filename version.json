@@ -1,6 +1,6 @@
 {
-  "version": "2.1.7",
-  "build": 35,
+  "version": "2.1.8",
+  "build": 36,
   "forceUpdate": true,
-  "description": "🛡️ Audio Híbrido: Sistema inteligente que usa voz online de alta calidad y cambia automáticamente a voz nativa si falla la conexión. ¡Nunca más te quedarás sin audio!"
+  "description": "🔌 Modo Offline Mejorado: Solucionado error que impedía iniciar la app sin internet. Ahora carga instantáneamente desde el caché."
 }

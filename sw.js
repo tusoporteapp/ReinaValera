@@ -3,11 +3,12 @@
 const CACHE_NAME = 'biblia-rv1909-v1.3.0';
 const BIBLE_DATA_CACHE = 'biblia-data-v2';
 
-// Archivos estáticos que siempre se deben cachear
 const STATIC_ASSETS = [
     './',
     './index.html',
-    './version.json'
+    './version.json',
+    './biblia.json',
+    './biblia_vbl.json'
 ];
 
 // ... (install event igual) ...
