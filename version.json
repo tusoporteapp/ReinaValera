@@ -1,6 +1,6 @@
 {
-  "version": "3.0.4",
-  "build": 54,
+  "version": "3.0.7",
+  "build": 57,
   "forceUpdate": false,
-  "description": "📊 Google Analytics 4 activado. Ahora rastreamos usuarios reales y eventos de la app."
+  "description": "📊 Configuración de Google Analytics actualizada según recomendaciones oficiales."
 }
