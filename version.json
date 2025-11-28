@@ -1,6 +1,6 @@
 {
-  "version": "3.0.20",
-  "build": 70,
+  "version": "3.0.21",
+  "build": 71,
   "forceUpdate": true,
-  "description": "🛠️ Corrección de Interfaz: Controles de lectura fijos arriba y reproductor flotante sin espacios vacíos."
+  "description": "🛠️ Header Fix Final: Botones de Escuchar y Siguiente ahora visibles correctamente en la cabecera."
 }
