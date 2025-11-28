@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "build": 26,
+  "version": "2.1.0",
+  "build": 28,
   "forceUpdate": true,
-  "description": "🎉 Versión 2.0: Sistema de Notas Personales + Contador de Usuarios + Videos Offline mejorados. Agrega notas a tus versículos favoritos, búscalas y organízalas con etiquetas. Exporta/importa tus notas. Correcciones en reproducción de videos descargados."
+  "description": "🧠 ¡NUEVO! Quiz Diario: Pon a prueba tu conocimiento al completar tu meta de lectura. Preguntas interactivas de Génesis. Además: Correcciones de Videos y TTS."
 }
