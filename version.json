@@ -1,6 +1,6 @@
 {
-  "version": "3.0.21",
-  "build": 71,
-  "forceUpdate": true,
-  "description": "🛠️ Header Fix Final: Botones de Escuchar y Siguiente ahora visibles correctamente en la cabecera."
+  "version": "3.0.22",
+  "build": 72,
+  "forceUpdate": false,
+  "description": "🏠 Inicio Reorganizado: 'Continuar Lectura' ahora es lo primero y tiene un diseño premium. Orden optimizado: Lectura -> Meta -> Quiz -> Versículo."
 }
