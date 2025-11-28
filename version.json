@@ -1,6 +1,6 @@
 {
-  "version": "3.0.2",
-  "build": 52,
+  "version": "3.0.4",
+  "build": 54,
   "forceUpdate": false,
-  "description": "✨ Nuevo: Botón de instalación PWA visible. Ahora puedes instalar la app fácilmente desde un botón en pantalla."
+  "description": "📊 Google Analytics 4 activado. Ahora rastreamos usuarios reales y eventos de la app."
 }
