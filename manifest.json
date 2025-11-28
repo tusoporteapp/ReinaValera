@@ -2,12 +2,12 @@
     "name": "Biblia Estudio VBL",
     "short_name": "Estudio VBL",
     "description": "Biblia Estudio VBL - Versión Biblia Libre en Español. Lectura offline, búsqueda, notas y más. Una aplicación web progresiva para tu estudio bíblico.",
-    "start_url": "/",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#3b82f6",
     "orientation": "portrait-primary",
-    "scope": "/",
+    "scope": "./",
     "lang": "es-ES",
     "dir": "ltr",
     "categories": [
@@ -17,21 +17,21 @@
     ],
     "icons": [
         {
-            "src": "/icon-192.png",
+            "src": "icon-192.png",
             "sizes": "192x192",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "any"
         },
         {
-            "src": "/icon-512.png",
+            "src": "icon-512.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "any"
         }
     ],
     "screenshots": [
         {
-            "src": "/screenshot-mobile.png",
+            "src": "screenshot-mobile.png",
             "sizes": "390x844",
             "type": "image/png",
             "form_factor": "narrow"
@@ -42,10 +42,10 @@
             "name": "Leer Biblia",
             "short_name": "Leer",
             "description": "Continuar lectura",
-            "url": "/",
+            "url": "./index.html",
             "icons": [
                 {
-                    "src": "/icon-192.png",
+                    "src": "icon-192.png",
                     "sizes": "192x192"
                 }
             ]
@@ -54,24 +54,15 @@
             "name": "Buscar",
             "short_name": "Buscar",
             "description": "Buscar en la Biblia",
-            "url": "/?view=search",
+            "url": "./index.html?view=search",
             "icons": [
                 {
-                    "src": "/icon-192.png",
+                    "src": "icon-192.png",
                     "sizes": "192x192"
                 }
             ]
         }
     ],
     "related_applications": [],
-    "prefer_related_applications": false,
-    "share_target": {
-        "action": "/share",
-        "method": "GET",
-        "params": {
-            "title": "title",
-            "text": "text",
-            "url": "url"
-        }
-    }
+    "prefer_related_applications": false
 }

@@ -11,7 +11,35 @@ const STATIC_ASSETS = [
     './biblia_vbl.json'
 ];
 
-// ... (install event igual) ...
+// Evento de Instalación
+self.addEventListener('install', (event) => {
+    console.log('[SW] Instalando Service Worker...');
+    event.waitUntil(
+        caches.open(CACHE_NAME).then((cache) => {
+            console.log('[SW] Cacheando archivos estáticos');
+            return cache.addAll(STATIC_ASSETS);
+        })
+    );
+    self.skipWaiting();
+});
+
+// Evento de Activación
+self.addEventListener('activate', (event) => {
+    console.log('[SW] Activando Service Worker...');
+    event.waitUntil(
+        caches.keys().then((cacheNames) => {
+            return Promise.all(
+                cacheNames.map((cacheName) => {
+                    if (cacheName !== CACHE_NAME && cacheName !== BIBLE_DATA_CACHE) {
+                        console.log('[SW] Borrando caché antiguo:', cacheName);
+                        return caches.delete(cacheName);
+                    }
+                })
+            );
+        })
+    );
+    return self.clients.claim();
+});
 
 // Fetch: Estrategia Cache-First para archivos estáticos y Network-First para datos
 self.addEventListener('fetch', (event) => {
