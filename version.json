@@ -1,6 +1,6 @@
 {
-  "version": "3.0.12",
-  "build": 62,
-  "forceUpdate": true,
-  "description": "📱 PWA Fix: Solucionado problema de instalación en Android. Rutas relativas y Service Worker corregido."
+  "version": "3.0.13",
+  "build": 63,
+  "forceUpdate": false,
+  "description": "🔊 Audio Mejorado: Controles de voz y pausa restaurados y siempre visibles. Correcciones PWA."
 }
