@@ -1,6 +1,6 @@
 {
-  "version": "2.1.8",
-  "build": 36,
+  "version": "2.1.9",
+  "build": 37,
   "forceUpdate": true,
-  "description": "🔌 Modo Offline Mejorado: Solucionado error que impedía iniciar la app sin internet. Ahora carga instantáneamente desde el caché."
+  "description": "🎧 Audio Definitivo: Sistema inteligente que prioriza la voz nativa de tu dispositivo para una lectura fluida y sin interrupciones. ¡Disfruta de la Biblia en audio sin límites!"
 }
