@@ -1,7 +1,7 @@
 {
-    "name": "Biblia Libre - Español",
-    "short_name": "Biblia Libre",
-    "description": "Biblia Libre en Español (VBL) - Lectura offline, búsqueda, notas y más. Una aplicación web progresiva para leer la Biblia en cualquier lugar.",
+    "name": "Biblia Estudio VBL",
+    "short_name": "Estudio VBL",
+    "description": "Biblia Estudio VBL - Versión Biblia Libre en Español. Lectura offline, búsqueda, notas y más. Una aplicación web progresiva para tu estudio bíblico.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

@@ -1,6 +1,6 @@
 {
-  "version": "3.0.0",
-  "build": 50,
-  "forceUpdate": true,
-  "description": "🎉 ACTUALIZACIÓN MAYOR - Biblia Libre PWA: Nueva versión optimizada con solo Biblia Libre (VBL), 86% más ligera, PWA completa con instalación nativa, funcionalidad offline mejorada, y rendimiento 50% más rápido. ¡Descarga automática en segundo plano!"
+  "version": "3.0.2",
+  "build": 52,
+  "forceUpdate": false,
+  "description": "✨ Nuevo: Botón de instalación PWA visible. Ahora puedes instalar la app fácilmente desde un botón en pantalla."
 }
