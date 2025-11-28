@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "build": 28,
+  "version": "2.1.2",
+  "build": 30,
   "forceUpdate": true,
-  "description": "🧠 ¡NUEVO! Quiz Diario: Pon a prueba tu conocimiento al completar tu meta de lectura. Preguntas interactivas de Génesis. Además: Correcciones de Videos y TTS."
+  "description": "🛠️ Corrección: Solucionado problema de pantalla en blanco después de actualizar. Mejoras en la estabilidad de carga de datos."
 }
