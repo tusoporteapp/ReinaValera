@@ -1,6 +1,6 @@
 {
-  "version": "3.0.17",
-  "build": 67,
+  "version": "3.0.18",
+  "build": 68,
   "forceUpdate": false,
-  "description": "🌐 Mejora de Transparencia: Reemplazado el contador de usuarios estimado por un indicador real de estado de conexión (Online/Offline)."
+  "description": "📖 Diseño de Lectura Optimizado: Controles de audio y navegación movidos a la cabecera para maximizar el espacio de lectura."
 }
