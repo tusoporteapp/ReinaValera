@@ -3,12 +3,12 @@ const CACHE_NAME = 'biblia-vbl-v3.0.0';
 const BIBLE_DATA_CACHE = 'biblia-data-v2';
 
 const STATIC_ASSETS = [
-    './',
-    './index.html',
-    './offline.html',
-    './manifest.json',
-    './version.json',
-    './biblia_vbl.json'
+    '/',
+    '/index.html',
+    '/offline.html',
+    '/manifest.json',
+    '/version.json',
+    '/biblia_vbl.json'
 ];
 
 // Evento de Instalación

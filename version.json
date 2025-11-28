@@ -1,6 +1,6 @@
 {
-  "version": "3.0.13",
-  "build": 63,
-  "forceUpdate": false,
-  "description": "🔊 Audio Mejorado: Controles de voz y pausa restaurados y siempre visibles. Correcciones PWA."
+  "version": "3.0.14",
+  "build": 64,
+  "forceUpdate": true,
+  "description": "🔊 Audio Player Ajustado: Ahora no tapa el menú. 📱 PWA Fix Final: Configuración optimizada para Cloudflare Pages."
 }
