@@ -1,6 +1,6 @@
 {
-  "version": "2.3.2",
-  "build": 42,
+  "version": "3.0.0",
+  "build": 50,
   "forceUpdate": true,
-  "description": "🔄 Recarga de Datos: Se ha forzado una actualización de la base de datos interna para aplicar correctamente las correcciones de texto en todos los libros."
+  "description": "🎉 ACTUALIZACIÓN MAYOR - Biblia Libre PWA: Nueva versión optimizada con solo Biblia Libre (VBL), 86% más ligera, PWA completa con instalación nativa, funcionalidad offline mejorada, y rendimiento 50% más rápido. ¡Descarga automática en segundo plano!"
 }

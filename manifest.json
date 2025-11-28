@@ -1,0 +1,77 @@
+{
+    "name": "Biblia Libre - Español",
+    "short_name": "Biblia Libre",
+    "description": "Biblia Libre en Español (VBL) - Lectura offline, búsqueda, notas y más. Una aplicación web progresiva para leer la Biblia en cualquier lugar.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3b82f6",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "es-ES",
+    "dir": "ltr",
+    "categories": [
+        "books",
+        "education",
+        "lifestyle"
+    ],
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-mobile.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Leer Biblia",
+            "short_name": "Leer",
+            "description": "Continuar lectura",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Buscar",
+            "short_name": "Buscar",
+            "description": "Buscar en la Biblia",
+            "url": "/?view=search",
+            "icons": [
+                {
+                    "src": "/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "share_target": {
+        "action": "/share",
+        "method": "GET",
+        "params": {
+            "title": "title",
+            "text": "text",
+            "url": "url"
+        }
+    }
+}

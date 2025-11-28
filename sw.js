@@ -1,13 +1,13 @@
-// Service Worker para caché offline de la Biblia
-// Service Worker para caché offline de la Biblia
-const CACHE_NAME = 'biblia-rv1909-v1.3.0';
+// Service Worker para caché offline de la Biblia Libre
+const CACHE_NAME = 'biblia-vbl-v3.0.0';
 const BIBLE_DATA_CACHE = 'biblia-data-v2';
 
 const STATIC_ASSETS = [
     './',
     './index.html',
+    './offline.html',
+    './manifest.json',
     './version.json',
-    './biblia.json',
     './biblia_vbl.json'
 ];
 
@@ -63,7 +63,7 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
-    // Estrategia especial para DATOS DE BIBLIA (biblia.json y biblia_vbl.json)
+    // Estrategia especial para DATOS DE BIBLIA (biblia_vbl.json)
     // Cache-First con actualización en segundo plano (Stale-While-Revalidate)
     if (url.pathname.includes('biblia') && url.pathname.endsWith('.json')) {
         event.respondWith(
@@ -136,13 +136,13 @@ self.addEventListener('message', (event) => {
     }
 
     if (event.data && event.data.type === 'CACHE_BIBLE') {
-        // Forzar caché de biblia.json
+        // Forzar caché de biblia_vbl.json
         caches.open(BIBLE_DATA_CACHE).then((cache) => {
-            cache.add('./biblia.json').then(() => {
-                console.log('[SW] biblia.json cacheado manualmente');
+            cache.add('./biblia_vbl.json').then(() => {
+                console.log('[SW] biblia_vbl.json cacheado manualmente');
                 event.ports[0].postMessage({ success: true });
             }).catch((error) => {
-                console.error('[SW] Error cacheando biblia.json:', error);
+                console.error('[SW] Error cacheando biblia_vbl.json:', error);
                 event.ports[0].postMessage({ success: false, error: error.message });
             });
         });

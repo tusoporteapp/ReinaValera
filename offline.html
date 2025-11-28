@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sin Conexión - Biblia Libre</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            background: #f3f4f6;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        h1 {
+            color: #1f2937;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #6b7280;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background: #2563eb;
+        }
+
+        .features {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            color: #4b5563;
+        }
+
+        .feature-icon {
+            width: 24px;
+            height: 24px;
+            background: #dbeafe;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="icon">📖</div>
+        <h1>Sin Conexión a Internet</h1>
+        <p>No te preocupes, la Biblia Libre está diseñada para funcionar offline. Una vez que hayas cargado la
+            aplicación con conexión, podrás acceder a todo el contenido sin internet.</p>
+
+        <a href="/" class="button">Volver a Intentar</a>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">✓</div>
+                <span>Lectura completa offline</span>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✓</div>
+                <span>Búsqueda en toda la Biblia</span>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✓</div>
+                <span>Notas y marcadores guardados</span>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✓</div>
+                <span>Progreso de lectura sincronizado</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Intentar recargar automáticamente cuando vuelva la conexión
+        window.addEventListener('online', () => {
+            window.location.reload();
+        });
+
+        // Verificar conexión cada 5 segundos
+        setInterval(() => {
+            if (navigator.onLine) {
+                window.location.reload();
+            }
+        }, 5000);
+    </script>
+</body>
+
+</html>
