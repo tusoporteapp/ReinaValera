@@ -1,6 +1,6 @@
 {
-  "version": "2.1.4",
-  "build": 32,
+  "version": "2.1.5",
+  "build": 33,
   "forceUpdate": true,
-  "description": "🐛 Corrección crítica: Solucionado error que impedía reproducir capítulos largos en el audio online."
+  "description": "🔊 Mejora de Audio: Mayor estabilidad en la reproducción y soporte para versículos largos. 🚀 Optimizaciones generales."
 }
