@@ -1,6 +1,6 @@
 {
-  "version": "3.0.18",
-  "build": 68,
-  "forceUpdate": false,
-  "description": "📖 Diseño de Lectura Optimizado: Controles de audio y navegación movidos a la cabecera para maximizar el espacio de lectura."
+  "version": "3.0.20",
+  "build": 70,
+  "forceUpdate": true,
+  "description": "🛠️ Corrección de Interfaz: Controles de lectura fijos arriba y reproductor flotante sin espacios vacíos."
 }
