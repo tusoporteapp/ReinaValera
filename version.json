@@ -1,6 +1,6 @@
 {
-  "version": "2.1.6",
-  "build": 34,
+  "version": "2.1.7",
+  "build": 35,
   "forceUpdate": true,
-  "description": "⚡ Actualizaciones en Tiempo Real: Ahora recibirás las mejoras al instante. 🔊 Optimizaciones de audio."
+  "description": "🛡️ Audio Híbrido: Sistema inteligente que usa voz online de alta calidad y cambia automáticamente a voz nativa si falla la conexión. ¡Nunca más te quedarás sin audio!"
 }
