@@ -1,6 +1,6 @@
 {
-  "version": "2.1.3",
-  "build": 31,
+  "version": "2.1.4",
+  "build": 32,
   "forceUpdate": true,
-  "description": "🔊 Nuevo Audio Online (voz natural). 🏆 Acceso directo al Quiz Bíblico en Inicio. 🐛 Correcciones de errores."
+  "description": "🐛 Corrección crítica: Solucionado error que impedía reproducir capítulos largos en el audio online."
 }
