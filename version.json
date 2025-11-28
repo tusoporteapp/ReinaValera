@@ -1,6 +1,6 @@
 {
-  "version": "2.3.1",
-  "build": 41,
+  "version": "2.3.2",
+  "build": 42,
   "forceUpdate": true,
-  "description": "📖 Corrección de Texto: Se ha solucionado un error que mostraba versículos adicionales en el último capítulo de cada libro."
+  "description": "🔄 Recarga de Datos: Se ha forzado una actualización de la base de datos interna para aplicar correctamente las correcciones de texto en todos los libros."
 }
