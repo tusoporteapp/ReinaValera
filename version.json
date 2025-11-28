@@ -1,6 +1,6 @@
 {
-  "version": "3.0.16",
-  "build": 66,
+  "version": "3.0.17",
+  "build": 67,
   "forceUpdate": false,
-  "description": "📖 Diseño Mejorado: Nueva tarjeta de 'Fin de Capítulo' con opciones claras para escuchar o avanzar. Adiós a los espacios vacíos."
+  "description": "🌐 Mejora de Transparencia: Reemplazado el contador de usuarios estimado por un indicador real de estado de conexión (Online/Offline)."
 }
