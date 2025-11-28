@@ -1,6 +1,6 @@
 {
-  "version": "3.0.14",
-  "build": 64,
-  "forceUpdate": true,
-  "description": "🔊 Audio Player Ajustado: Ahora no tapa el menú. 📱 PWA Fix Final: Configuración optimizada para Cloudflare Pages."
+  "version": "3.0.16",
+  "build": 66,
+  "forceUpdate": false,
+  "description": "📖 Diseño Mejorado: Nueva tarjeta de 'Fin de Capítulo' con opciones claras para escuchar o avanzar. Adiós a los espacios vacíos."
 }
