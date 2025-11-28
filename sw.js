@@ -31,78 +31,9 @@ self.addEventListener('fetch', (event) => {
         }
     }
 
-    // Estrategia para Videos (Cache-First con múltiples intentos de match)
+    // Estrategia para Videos: NETWORK ONLY (No cachear)
     if (url.pathname.endsWith('.mp4') || request.destination === 'video') {
-        const VIDEO_CACHE_NAME = 'bible-app-video-cache-v1';
-
-        event.respondWith(
-            caches.open(VIDEO_CACHE_NAME).then(async cache => {
-                // Intentar múltiples estrategias de match
-
-                // 1. Match exacto con la URL original
-                let response = await cache.match(request);
-                if (response) {
-                    console.log('[SW] Video encontrado en caché (match exacto):', url.href);
-                    return response;
-                }
-
-                // 2. Match con URL codificada
-                const encodedUrl = encodeURI(request.url);
-                response = await cache.match(encodedUrl);
-                if (response) {
-                    console.log('[SW] Video encontrado en caché (URL codificada):', encodedUrl);
-                    return response;
-                }
-
-                // 3. Match ignorando query params
-                response = await cache.match(request, { ignoreSearch: true });
-                if (response) {
-                    console.log('[SW] Video encontrado en caché (sin query):', url.href);
-                    return response;
-                }
-
-                // 4. Match con Request no-cors (para respuestas opacas)
-                const noCorsRequest = new Request(request.url, { mode: 'no-cors' });
-                response = await cache.match(noCorsRequest);
-                if (response) {
-                    console.log('[SW] Video encontrado en caché (no-cors):', url.href);
-                    return response;
-                }
-
-                // 5. Buscar manualmente en todas las entradas del caché
-                const keys = await cache.keys();
-                for (const cachedRequest of keys) {
-                    const cachedUrl = new URL(cachedRequest.url);
-                    // Comparar pathname sin query params
-                    if (cachedUrl.pathname === url.pathname) {
-                        response = await cache.match(cachedRequest);
-                        if (response) {
-                            console.log('[SW] Video encontrado en caché (búsqueda manual):', cachedRequest.url);
-                            return response;
-                        }
-                    }
-                }
-
-                // 6. Si no está en caché, intentar descargarlo de la red
-                console.log('[SW] Video NO encontrado en caché, descargando de red:', url.href);
-                try {
-                    const networkResponse = await fetch(request);
-                    // Opcionalmente, guardar en caché para próxima vez
-                    if (networkResponse && networkResponse.ok) {
-                        cache.put(request, networkResponse.clone());
-                    }
-                    return networkResponse;
-                } catch (error) {
-                    console.error('[SW] Error descargando video de red:', error);
-                    // Retornar error 404
-                    return new Response('Video no disponible offline', {
-                        status: 404,
-                        statusText: 'Not Found'
-                    });
-                }
-            })
-        );
-        return;
+        return; // Dejar que el navegador maneje la petición (Network Only)
     }
 
     // Estrategia Cache-First para archivos estáticos
