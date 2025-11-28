@@ -1,6 +1,6 @@
 {
-  "version": "1.16.0",
-  "build": 25,
+  "version": "2.0.0",
+  "build": 26,
   "forceUpdate": true,
-  "description": "Nueva función: Escuchar capítulo completo con voz natural (offline). Actualización de créditos y licencias."
+  "description": "🎉 Versión 2.0: Sistema de Notas Personales + Contador de Usuarios + Videos Offline mejorados. Agrega notas a tus versículos favoritos, búscalas y organízalas con etiquetas. Exporta/importa tus notas. Correcciones en reproducción de videos descargados."
 }
