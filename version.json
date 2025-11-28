@@ -1,6 +1,6 @@
 {
-  "version": "2.1.9",
-  "build": 37,
+  "version": "2.2.0",
+  "build": 38,
   "forceUpdate": true,
-  "description": "🎧 Audio Definitivo: Sistema inteligente que prioriza la voz nativa de tu dispositivo para una lectura fluida y sin interrupciones. ¡Disfruta de la Biblia en audio sin límites!"
+  "description": "🛠️ Ajustes de Interfaz: Se ha eliminado la función de audio temporalmente para optimizar el rendimiento y la estabilidad de la aplicación."
 }
