@@ -1,6 +1,6 @@
 {
-  "version": "4.1.3",
-  "build": 113,
+  "version": "4.1.4",
+  "build": 114,
   "forceUpdate": true,
-  "description": "🐛 Corrección Crítica Teo: Solucionado error de conexión con Gemini API."
+  "description": "🔄 Restauración de Teo: Volviendo a DeepSeek AI para máxima estabilidad, manteniendo el nuevo diseño."
 }
