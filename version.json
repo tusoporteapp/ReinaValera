@@ -1,6 +1,6 @@
 {
-  "version": "4.0.8",
-  "build": 108,
-  "forceUpdate": false,
-  "description": "🚀 Inicio Optimizado: Se ha unificado la pantalla de carga inicial para una experiencia más fluida."
+  "version": "4.1.0",
+  "build": 110,
+  "forceUpdate": true,
+  "description": "🤖 ¡Nuevo Asistente IA! Conoce a Teo, tu compañero teológico inteligente que responde tus dudas bíblicas al instante."
 }
