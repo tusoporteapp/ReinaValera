@@ -1,6 +1,6 @@
 {
-  "version": "4.2.0",
-  "build": 120,
+  "version": "4.2.2",
+  "build": 122,
   "forceUpdate": true,
-  "description": "📚 ¡Nuevo! Sección de Temas Bíblicos y Teo ahora responde con referencias interactivas. ¡Explora la Biblia como nunca antes!"
+  "description": "👀 Vista Previa de Versículos: Ahora puedes leer los versículos citados sin salir del chat o de los temas. ¡Más rápido y cómodo!"
 }
