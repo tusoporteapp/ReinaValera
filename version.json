@@ -1,6 +1,6 @@
 {
-  "version": "4.3.2",
-  "build": 202,
+  "version": "4.3.3",
+  "build": 203,
   "forceUpdate": true,
-  "description": "🎨 Mejora en la interfaz del Chat IA. Ahora se comporta igual que Temas Bíblicos para una experiencia más fluida."
+  "description": "⚙️ Mejora en el recordatorio de instalación. Ahora puedes elegir cuándo quieres que vuelva a aparecer."
 }
