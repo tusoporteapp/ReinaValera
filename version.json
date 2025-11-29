@@ -1,6 +1,6 @@
 {
-  "version": "4.0.7",
-  "build": 107,
-  "forceUpdate": true,
-  "description": "🔄 Actualización de Caché: Se ha forzado la actualización de los iconos para mostrar la nueva versión sin bordes."
+  "version": "4.0.8",
+  "build": 108,
+  "forceUpdate": false,
+  "description": "🚀 Inicio Optimizado: Se ha unificado la pantalla de carga inicial para una experiencia más fluida."
 }

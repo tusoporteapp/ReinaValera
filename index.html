@@ -120,22 +120,18 @@
       }
     }
 
-    .loader-logo {
-      width: 96px;
-      height: 96px;
-      background-color: #3b82f6;
-      /* Primary Blue */
-      border-radius: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 48px;
-      font-weight: bold;
-      font-family: serif;
-      box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.3);
+    .loader-logo-container {
+      width: 128px;
+      height: 128px;
       margin-bottom: 24px;
       animation: pulse-soft 2s infinite;
+      filter: drop-shadow(0 10px 15px rgba(37, 99, 235, 0.2));
+    }
+
+    .loader-logo-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
 
     .loader-text {
@@ -215,7 +211,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-CV2vWCRh.js"></script>
+  <script type="module" crossorigin src="/assets/index-C6HPFPZC.js"></script>
 </head>
 
 <body
@@ -223,9 +219,11 @@
   <!-- El contenido dentro de ROOT se muestra INMEDIATAMENTE mientras carga JS -->
   <div id="root" class="h-full w-full flex flex-col">
     <div id="app-loader">
-      <div class="loader-logo">B</div>
-      <div class="loader-text">Biblia App Nativa</div>
-      <div class="loader-subtext">Cargando recursos...</div>
+      <div class="loader-logo-container">
+        <img src="/icon-192.png" alt="Biblia VBL" width="128" height="128" />
+      </div>
+      <div class="loader-text">Biblia VBL</div>
+      <div class="loader-subtext">Iniciando...</div>
     </div>
   </div>
 </body>
