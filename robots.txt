@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bibliarv1909.com/sitemap.xml
