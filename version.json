@@ -1,6 +1,6 @@
 {
-  "version": "4.0.0",
-  "build": 100,
-  "forceUpdate": true,
-  "description": "🚀 ¡Nuevo Nombre e Identidad! Bienvenido a Biblia VBL. Disfruta de una experiencia renovada con nuestra nueva imagen."
+  "version": "4.0.1",
+  "build": 101,
+  "forceUpdate": false,
+  "description": "🎨 Ajustes Visuales: Logo limpio y sin bordes en toda la aplicación."
 }
