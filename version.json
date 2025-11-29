@@ -1,6 +1,6 @@
 {
-  "version": "4.0.6",
-  "build": 106,
+  "version": "4.0.7",
+  "build": 107,
   "forceUpdate": true,
-  "description": "🔄 Actualización de Mantenimiento: Recompilación para asegurar la integridad de los nuevos iconos y mejoras."
+  "description": "🔄 Actualización de Caché: Se ha forzado la actualización de los iconos para mostrar la nueva versión sin bordes."
 }
