@@ -1,6 +1,6 @@
 {
-  "version": "4.0.1",
-  "build": 101,
-  "forceUpdate": false,
-  "description": "🎨 Ajustes Visuales: Logo limpio y sin bordes en toda la aplicación."
+  "version": "4.0.6",
+  "build": 106,
+  "forceUpdate": true,
+  "description": "🔄 Actualización de Mantenimiento: Recompilación para asegurar la integridad de los nuevos iconos y mejoras."
 }
