@@ -1,6 +1,6 @@
 {
-  "version": "4.1.0",
-  "build": 110,
+  "version": "4.1.1",
+  "build": 111,
   "forceUpdate": true,
-  "description": "🤖 ¡Nuevo Asistente IA! Conoce a Teo, tu compañero teológico inteligente que responde tus dudas bíblicas al instante."
+  "description": "🛠️ Mejoras en Teo: Interfaz de chat optimizada y conexión más robusta."
 }
