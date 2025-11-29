@@ -1,6 +1,6 @@
 {
-  "version": "4.3.3",
-  "build": 203,
+  "version": "4.3.4",
+  "build": 204,
   "forceUpdate": true,
-  "description": "⚙️ Mejora en el recordatorio de instalación. Ahora puedes elegir cuándo quieres que vuelva a aparecer."
+  "description": "🔧 Corrección en el Chat IA para móviles. El título ahora permanece visible cuando aparece el teclado."
 }
