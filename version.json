@@ -1,6 +1,6 @@
 {
-  "version": "4.1.1",
-  "build": 111,
+  "version": "4.1.2",
+  "build": 112,
   "forceUpdate": true,
-  "description": "🛠️ Mejoras en Teo: Interfaz de chat optimizada y conexión más robusta."
+  "description": "✨ Nuevo Teo: Ahora impulsado por Gemini 1.5 Flash y con una interfaz de chat mejorada en pantalla completa."
 }
