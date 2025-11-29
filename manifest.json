@@ -1,7 +1,7 @@
 {
-    "name": "Biblia VBL",
-    "short_name": "Biblia VBL",
-    "description": "Biblia VBL - Versión Biblia Libre en Español. Lectura offline, búsqueda, notas y más. Tu compañero de estudio bíblico diario.",
+    "name": "Biblia Reina Valera 1909 de Estudio",
+    "short_name": "RV1909 Estudio",
+    "description": "Biblia Reina Valera 1909 de Estudio. Lectura offline, búsqueda, notas y más. Tu compañero de estudio bíblico diario.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
