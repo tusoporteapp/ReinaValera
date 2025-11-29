@@ -1,6 +1,6 @@
 {
-  "version": "4.3.1",
-  "build": 201,
+  "version": "4.3.2",
+  "build": 202,
   "forceUpdate": true,
-  "description": "✨ Mejoras visuales en el Chat IA y correcciones finales de branding."
+  "description": "🎨 Mejora en la interfaz del Chat IA. Ahora se comporta igual que Temas Bíblicos para una experiencia más fluida."
 }
