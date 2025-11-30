@@ -1,3 +1,32 @@
+# robots.txt para Biblia Reina Valera 1909
+# https://bibliarv1909.com/robots.txt
+
+# Permitir a todos los robots rastrear todo el sitio
 User-agent: *
 Allow: /
+
+# Sitemap
 Sitemap: https://bibliarv1909.com/sitemap.xml
+
+# Rastreo optimizado para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Rastreo optimizado para Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Bloquear acceso a archivos de sistema (si existen)
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /dist/
+Disallow: /.env
+
+# Permitir explícitamente las rutas principales
+Allow: /leer/
+Allow: /libros
+Allow: /videos
+Allow: /notas
+Allow: /ajustes

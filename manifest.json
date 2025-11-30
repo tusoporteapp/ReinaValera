@@ -1,7 +1,7 @@
 {
-    "name": "Biblia Reina Valera 1909 de Estudio",
-    "short_name": "RV1909 Estudio",
-    "description": "Biblia Reina Valera 1909 de Estudio. Lectura offline, búsqueda, notas y más. Tu compañero de estudio bíblico diario.",
+    "name": "Biblia Reina Valera 1909 de Estudio - Gratis y Offline",
+    "short_name": "Biblia RV1909",
+    "description": "Biblia Reina Valera 1909 de Estudio. La versión clásica con herramientas modernas: lectura offline, búsqueda inteligente, notas personales, planes de lectura y más. Funciona sin internet. 100% gratis, sin anuncios.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
@@ -13,7 +13,9 @@
     "categories": [
         "books",
         "education",
-        "lifestyle"
+        "lifestyle",
+        "productivity",
+        "reference"
     ],
     "icons": [
         {
