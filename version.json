@@ -1,6 +1,6 @@
 {
-  "version": "4.8.9",
-  "build": 223,
-  "description": "Corrección Crítica de Instalación PWA",
+  "version": "4.8.10",
+  "build": 224,
+  "description": "Corrección de Botón de Instalación en Onboarding",
   "forceUpdate": true
 }
