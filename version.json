@@ -1,6 +1,6 @@
 {
-  "version": "4.8.5",
-  "build": 219,
-  "description": "Depuración de Instalación PWA",
+  "version": "4.8.6",
+  "build": 220,
+  "description": "Instalación PWA Mejorada",
   "forceUpdate": true
 }
