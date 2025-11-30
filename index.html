@@ -67,6 +67,18 @@
     gtag('config', 'G-GW18HG1880');
   </script>
 
+  <!-- Captura temprana del evento PWA -->
+  <script>
+    window.deferredPrompt = null;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      console.log('🎉 Evento beforeinstallprompt capturado globalmente');
+      // Prevenir que Chrome muestre el prompt nativo automáticamente (aunque en Android lo hace igual a veces)
+      e.preventDefault();
+      // Guardar el evento para usarlo después
+      window.deferredPrompt = e;
+    });
+  </script>
+
   <!-- Estilos Críticos para la carga inicial (Pre-React) -->
   <style>
     /* Deshabilitar resaltado de tap en móviles y zoom por doble toque */
@@ -214,7 +226,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-BH9fQxAm.js"></script>
+  <script type="module" crossorigin src="/assets/index-DJJc3sya.js"></script>
 </head>
 
 <body

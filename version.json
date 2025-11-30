@@ -1,6 +1,6 @@
 {
-  "version": "4.8.8",
-  "build": 222,
-  "description": "Limpieza de URLs y optimización final",
+  "version": "4.8.9",
+  "build": 223,
+  "description": "Corrección Crítica de Instalación PWA",
   "forceUpdate": true
 }
