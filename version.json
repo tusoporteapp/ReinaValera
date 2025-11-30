@@ -1,6 +1,6 @@
 {
-  "version": "4.8.6",
-  "build": 220,
-  "description": "Instalación PWA Mejorada",
+  "version": "4.8.7",
+  "build": 221,
+  "description": "Prompt de Instalación en Onboarding",
   "forceUpdate": true
 }
