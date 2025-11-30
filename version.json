@@ -1,6 +1,6 @@
 {
-  "version": "4.8.7",
-  "build": 221,
-  "description": "Prompt de Instalación en Onboarding",
+  "version": "4.8.8",
+  "build": 222,
+  "description": "Limpieza de URLs y optimización final",
   "forceUpdate": true
 }
