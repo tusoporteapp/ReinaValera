@@ -1,6 +1,6 @@
 {
-  "version": "4.9.1",
-  "build": 227,
-  "description": "Sistema de Publicidad Completo (Home, Reader, Interstitial)",
+  "version": "4.9.2",
+  "build": 228,
+  "description": "Optimización para Google Auto Ads",
   "forceUpdate": true
 }
