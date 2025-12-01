@@ -1,6 +1,6 @@
 {
-  "version": "4.9.3",
-  "build": 229,
-  "description": "Cambio a Firebase CDN",
+  "version": "4.9.4",
+  "build": 230,
+  "description": "Depuración de Firebase Analytics",
   "forceUpdate": true
 }
