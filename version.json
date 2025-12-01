@@ -1,6 +1,6 @@
 {
-  "version": "4.9.0",
-  "build": 226,
-  "description": "Integración de Google AdSense",
+  "version": "4.9.1",
+  "build": 227,
+  "description": "Sistema de Publicidad Completo (Home, Reader, Interstitial)",
   "forceUpdate": true
 }
