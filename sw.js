@@ -176,3 +176,31 @@ self.addEventListener('message', (event) => {
         });
     }
 });
+// --- Firebase Cloud Messaging (Background) ---
+importScripts('https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js');
+importScripts('https://www.gstatic.com/firebasejs/10.9.0/firebase-messaging-compat.js');
+
+firebase.initializeApp({
+    apiKey: "AIzaSyDHP4fAVI_BNfCyg0UT1h04n9bVTEkV4Dc",
+    authDomain: "bibliarv1909-app.firebaseapp.com",
+    projectId: "bibliarv1909-app",
+    storageBucket: "bibliarv1909-app.firebasestorage.app",
+    messagingSenderId: "291224466196",
+    appId: "1:291224466196:web:b6592044dcbcabfc944801",
+    measurementId: "G-7QM9SY6E27"
+});
+
+const messaging = firebase.messaging();
+
+messaging.onBackgroundMessage((payload) => {
+    console.log('[firebase-messaging-sw.js] Mensaje en segundo plano recibido:', payload);
+
+    const notificationTitle = payload.notification.title;
+    const notificationOptions = {
+        body: payload.notification.body,
+        icon: '/icon-192.png', // Asegúrate de tener este icono
+        badge: '/icon-192.png'
+    };
+
+    self.registration.showNotification(notificationTitle, notificationOptions);
+});

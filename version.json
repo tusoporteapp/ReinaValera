@@ -1,6 +1,6 @@
 {
-  "version": "4.9.5",
-  "build": 231,
-  "description": "Política de Privacidad y Cumplimiento GDPR",
+  "version": "4.9.7",
+  "build": 233,
+  "description": "Configuración final de Notificaciones Push (VAPID Key)",
   "forceUpdate": true
 }
