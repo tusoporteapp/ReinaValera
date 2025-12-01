@@ -1,6 +1,6 @@
 {
-  "version": "4.9.7",
-  "build": 233,
-  "description": "Configuración final de Notificaciones Push (VAPID Key)",
+  "version": "4.9.8",
+  "build": 234,
+  "description": "Centro de Notificaciones y Permiso en Onboarding",
   "forceUpdate": true
 }
