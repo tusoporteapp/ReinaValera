@@ -1,6 +1,6 @@
 {
-  "version": "4.9.2",
-  "build": 228,
-  "description": "Optimización para Google Auto Ads",
+  "version": "4.9.3",
+  "build": 229,
+  "description": "Cambio a Firebase CDN",
   "forceUpdate": true
 }
