@@ -1,6 +1,6 @@
 {
-  "version": "4.8.10",
-  "build": 224,
-  "description": "Corrección de Botón de Instalación en Onboarding",
+  "version": "4.9.0",
+  "build": 226,
+  "description": "Integración de Google AdSense",
   "forceUpdate": true
 }
