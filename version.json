@@ -1,6 +1,6 @@
 {
   "version": "4.9.9",
-  "build": 242,
-  "description": "Nuevo formato de Tema del Día con pregunta",
+  "build": 251,
+  "description": "Limpieza de interfaz Home",
   "forceUpdate": true
 }
