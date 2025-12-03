@@ -1,6 +1,6 @@
 {
   "version": "4.9.9",
-  "build": 238,
-  "description": "Corrección de pantalla en blanco en detalles de temas",
+  "build": 240,
+  "description": "Rediseño premium del inicio con widgets compactos",
   "forceUpdate": true
 }
