@@ -1,6 +1,6 @@
 {
   "version": "4.9.9",
-  "build": 235,
-  "description": "Nueva sección de Temas Bíblicos y Devocional del Día",
+  "build": 236,
+  "description": "Mejoras en navegación de Temas Bíblicos y correcciones en Home",
   "forceUpdate": true
 }
