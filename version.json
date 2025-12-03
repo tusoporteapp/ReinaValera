@@ -1,6 +1,6 @@
 {
   "version": "4.9.9",
-  "build": 236,
-  "description": "Mejoras en navegación de Temas Bíblicos y correcciones en Home",
+  "build": 238,
+  "description": "Corrección de pantalla en blanco en detalles de temas",
   "forceUpdate": true
 }
