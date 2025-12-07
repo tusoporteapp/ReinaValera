@@ -1,3 +1,6 @@
 {
-  "version": "5.1.1"
+  "version": "5.1.2",
+  "build": 2025120601,
+  "description": "Corrección en contador de usuarios online: ahora muestra correctamente '1 conectado' y gestiona mejor las reconexiones. Solucionado problema de desconexiones fantasmas.",
+  "forceUpdate": false
 }
