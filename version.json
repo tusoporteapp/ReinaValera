@@ -1,6 +1,6 @@
 {
-  "version": "5.1.3",
-  "build": 2025120602,
-  "description": "Corrección definitiva del contador online: optimización de la autenticación anónima para garantizar que el estado 'conectado' se registre correctamente sin bloqueos de seguridad.",
+  "version": "5.2.0",
+  "build": 2025120604,
+  "description": "Gran actualización de rendimiento: Arquitectura reescrita para carga 'Lazy Loading' (solo carga lo necesario). Optimización de assets y división de código para una experiencia 100% nativa y fluida.",
   "forceUpdate": false
 }
