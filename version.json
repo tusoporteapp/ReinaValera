@@ -1,6 +1,6 @@
 {
-  "version": "5.2.0",
-  "build": 2025120604,
-  "description": "Gran actualización de rendimiento: Arquitectura reescrita para carga 'Lazy Loading' (solo carga lo necesario). Optimización de assets y división de código para una experiencia 100% nativa y fluida.",
+  "version": "5.2.1",
+  "build": 2025120605,
+  "description": "Mejoras en la experiencia inicial: Solucionado error en el botón 'Comenzar'. Nuevo selector de modo Claro/Oscuro en la pantalla de bienvenida.",
   "forceUpdate": false
 }
