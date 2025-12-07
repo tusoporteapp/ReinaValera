@@ -1,6 +1,6 @@
 {
-  "version": "5.3.0",
-  "build": 2025120607,
-  "description": "Rediseño completo de la Búsqueda: Interfaz estilo iOS profesional con animaciones fluidas. Nuevos efectos visuales en toda la aplicación.",
+  "version": "5.3.1",
+  "build": 2025120608,
+  "description": "Nueva Búsqueda Avanzada: Ahora con diseño flotante estilo 'Spotlight', minimalista y elegante. Solo aparece la barra y se expande con los resultados.",
   "forceUpdate": false
 }
