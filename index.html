@@ -23,15 +23,16 @@
 
   <!-- PWA Tags -->
   <link rel="manifest" href="/manifest.json" />
-  <link rel="apple-touch-icon" href="/icon-192.png" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="Biblia RV1909" />
 
   <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -65,6 +66,23 @@
     gtag('js', new Date());
 
     gtag('config', 'G-GW18HG1880');
+  </script>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Biblia Reina Valera 1909",
+      "applicationCategory": "ReferenceApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Biblia Reina Valera 1909 de Estudio. La versión clásica con herramientas modernas: lectura offline, búsqueda inteligente, notas y planes de lectura."
+    }
   </script>
 
   <!-- Google AdSense -->
