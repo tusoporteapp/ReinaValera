@@ -1,6 +1,6 @@
 {
-  "version": "5.2.1",
-  "build": 2025120605,
-  "description": "Mejoras en la experiencia inicial: Solucionado error en el botón 'Comenzar'. Nuevo selector de modo Claro/Oscuro en la pantalla de bienvenida.",
+  "version": "5.2.2",
+  "build": 2025120606,
+  "description": "Optimización de la pantalla de bienvenida para todos los tamaños de pantalla. Ajustes de espaciado y legibilidad.",
   "forceUpdate": false
 }
