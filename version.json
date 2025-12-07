@@ -1,6 +1,6 @@
 {
-  "version": "5.3.3",
-  "build": 2025120610,
-  "description": "Rediseño de Búsqueda: Nuevo estilo de ventana modal centrada, unificado con la experiencia de feedback para mayor coherencia visual.",
+  "version": "5.3.5",
+  "build": 2025120612,
+  "description": "Estabilidad: Eliminación de logs de depuración para mejorar el rendimiento.",
   "forceUpdate": false
 }
