@@ -1,6 +1,6 @@
 {
-  "version": "5.2.2",
-  "build": 2025120606,
-  "description": "Optimización de la pantalla de bienvenida para todos los tamaños de pantalla. Ajustes de espaciado y legibilidad.",
+  "version": "5.3.0",
+  "build": 2025120607,
+  "description": "Rediseño completo de la Búsqueda: Interfaz estilo iOS profesional con animaciones fluidas. Nuevos efectos visuales en toda la aplicación.",
   "forceUpdate": false
 }
