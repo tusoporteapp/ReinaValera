@@ -1,6 +1,6 @@
 {
-  "version": "6.0.28",
-  "build": 2025120918,
-  "description": "Actualización de Seguridad (React 19.2.1). Mejoras en Widget Podcast, Likes y Notificaciones.",
+  "version": "6.0.29",
+  "build": 2025120919,
+  "description": "NUEVO: Widget 'Imagen del Día'. Comparte y descarga imágenes inspiradoras diariamente. Mejoras generales.",
   "forceUpdate": true
 }
