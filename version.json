@@ -1,6 +1,6 @@
 {
-  "version": "6.0.27",
-  "build": 2025120917,
-  "description": "Ajuste: Notificaciones sociales anónimas. Enfoque en contenido y privacidad.",
+  "version": "6.0.28",
+  "build": 2025120918,
+  "description": "Actualización de Seguridad (React 19.2.1). Mejoras en Widget Podcast, Likes y Notificaciones.",
   "forceUpdate": true
 }
