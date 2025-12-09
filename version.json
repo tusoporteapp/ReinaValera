@@ -1,6 +1,6 @@
 {
-  "version": "6.0.15",
-  "build": 2025120905,
-  "description": "Mejora en Contador de Visitas: Registro global desde cualquier punto de entrada.",
+  "version": "6.0.18",
+  "build": 2025120908,
+  "description": "Mejora: Integración de reproductor Drive nativo y persistente (PiP).",
   "forceUpdate": true
 }
