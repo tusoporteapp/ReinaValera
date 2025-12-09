@@ -1,6 +1,6 @@
 {
-  "version": "6.0.7",
-  "build": 2025120808,
-  "description": "Restauración: Sistema de podcasts revertido a descarga local para garantizar estabilidad y funcionamiento.",
+  "version": "6.0.11",
+  "build": 2025120901,
+  "description": "Nuevas páginas individuales para Podcasts y función de compartir mejorada.",
   "forceUpdate": true
 }
