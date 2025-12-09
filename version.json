@@ -1,6 +1,6 @@
 {
-  "version": "7.0.0",
-  "build": 2025120930,
-  "description": "¡GRAN ACTUALIZACIÓN 7.0! Mejor rendimiento, nuevos audios y corrección completa de errores. Disfruta la mejor experiencia.",
+  "version": "7.0.1",
+  "build": 2025120918,
+  "description": "Nueva funcionalidad: Widget de Imágenes Bíblicas diarias. Contador de tiempo corregido para toda la app.",
   "forceUpdate": true
 }
