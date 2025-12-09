@@ -181,7 +181,7 @@ importScripts('https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js'
 importScripts('https://www.gstatic.com/firebasejs/10.9.0/firebase-messaging-compat.js');
 
 firebase.initializeApp({
-    apiKey: "AIzaSyDHP4fAVI_BNfCyg0UT1h04n9bVTEkV4Dc",
+    apiKey: "AIzaSyCyzquKi4MxCrSIROrsi0oFrrFS23rlQMQ",
     authDomain: "bibliarv1909-app.firebaseapp.com",
     projectId: "bibliarv1909-app",
     storageBucket: "bibliarv1909-app.firebasestorage.app",
