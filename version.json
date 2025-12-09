@@ -1,6 +1,6 @@
 {
-  "version": "6.0.13",
-  "build": 2025120903,
-  "description": "Mejoras de UI en Podcasts: Nueva vista de lista, barra de búsqueda y navegación directa.",
+  "version": "6.0.14",
+  "build": 2025120904,
+  "description": "Mejora en Streaming: Soporte para reproducción nativa de podcasts desde Drive.",
   "forceUpdate": true
 }
