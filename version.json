@@ -1,6 +1,6 @@
 {
-  "version": "7.0.0",
-  "build": 2025120920,
-  "description": "GRAN ACTULIZACIÓN v7: Nuevo Feed de Imágenes Diarias y Podcasts. Mejoras de seguridad y rendimiento. ¡Disfrútala!",
+  "version": "7.0.1",
+  "build": 2025120921,
+  "description": "Mejoras de estabilidad y correcciones menores en la nueva interfaz visual.",
   "forceUpdate": true
 }
