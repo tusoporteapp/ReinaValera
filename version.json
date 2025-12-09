@@ -1,6 +1,6 @@
 {
-  "version": "6.0.29",
-  "build": 2025120919,
-  "description": "NUEVO: Widget 'Imagen del Día'. Comparte y descarga imágenes inspiradoras diariamente. Mejoras generales.",
+  "version": "7.0.0",
+  "build": 2025120920,
+  "description": "GRAN ACTULIZACIÓN v7: Nuevo Feed de Imágenes Diarias y Podcasts. Mejoras de seguridad y rendimiento. ¡Disfrútala!",
   "forceUpdate": true
 }
