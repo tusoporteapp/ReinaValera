@@ -1,6 +1,6 @@
 {
-  "version": "6.0.24",
-  "build": 2025120914,
-  "description": "Mejora: Notificaciones sociales personalizadas con nombre de usuario.",
+  "version": "6.0.25",
+  "build": 2025120915,
+  "description": "Nueva funcionalidad: Widget de Podcast Diario en Inicio.",
   "forceUpdate": true
 }
