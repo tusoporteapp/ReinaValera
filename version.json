@@ -1,6 +1,6 @@
 {
-  "version": "6.0.6",
-  "build": 2025120807,
-  "description": "Limpieza: Eliminados archivos locales. Streaming habilitado desde servidor en la nube.",
+  "version": "6.0.7",
+  "build": 2025120808,
+  "description": "Restauración: Sistema de podcasts revertido a descarga local para garantizar estabilidad y funcionamiento.",
   "forceUpdate": true
 }
