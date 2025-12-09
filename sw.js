@@ -1,5 +1,5 @@
 // Service Worker para caché offline de la Biblia Libre
-const CACHE_NAME = 'biblia-vbl-v3.0.0';
+const CACHE_NAME = 'biblia-vbl-v7.0.0';
 const BIBLE_DATA_CACHE = 'biblia-data-v2';
 
 const STATIC_ASSETS = [
@@ -7,7 +7,7 @@ const STATIC_ASSETS = [
     '/index.html',
     '/offline.html',
     '/manifest.json',
-    '/version.json',
+    // '/version.json', // Removido para evitar cacheo agresivo en install
     '/biblia_vbl.json'
 ];
 
