@@ -1,6 +1,6 @@
 {
-  "version": "6.0.14",
-  "build": 2025120904,
-  "description": "Mejora en Streaming: Soporte para reproducción nativa de podcasts desde Drive.",
+  "version": "6.0.15",
+  "build": 2025120905,
+  "description": "Mejora en Contador de Visitas: Registro global desde cualquier punto de entrada.",
   "forceUpdate": true
 }
