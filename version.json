@@ -1,6 +1,6 @@
 {
-  "version": "6.0.1",
-  "build": 2025120802,
-  "description": "Nuevo contenido: Podcast '¿Qué Piensa Dios Sobre El Abuso?'. Tour actualizado y mejoras generales.",
+  "version": "6.0.3",
+  "build": 2025120804,
+  "description": "Optimización: Los Podcasts ahora se reproducen vía streaming desde la nube para ahorrar espacio.",
   "forceUpdate": false
 }
