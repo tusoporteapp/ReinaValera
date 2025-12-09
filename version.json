@@ -1,6 +1,6 @@
 {
-  "version": "6.0.18",
-  "build": 2025120908,
-  "description": "Mejora: Integración de reproductor Drive nativo y persistente (PiP).",
+  "version": "6.0.21",
+  "build": 2025120911,
+  "description": "Nueva funcionalidad: Actualización en tiempo real con sistema de alertas inteligente (Push 30min).",
   "forceUpdate": true
 }
