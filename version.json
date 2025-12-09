@@ -1,6 +1,6 @@
 {
-  "version": "6.0.21",
-  "build": 2025120911,
-  "description": "Nueva funcionalidad: Actualización en tiempo real con sistema de alertas inteligente (Push 30min).",
+  "version": "6.0.24",
+  "build": 2025120914,
+  "description": "Mejora: Notificaciones sociales personalizadas con nombre de usuario.",
   "forceUpdate": true
 }
