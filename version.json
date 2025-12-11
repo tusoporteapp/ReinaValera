@@ -1,6 +1,6 @@
 {
-  "version": "7.1.2",
-  "build": 2025121022,
-  "description": "Página de podcast simplificada: botones reorganizados (Reproducir, Like, Compartir), título en header, descarga removida",
+  "version": "7.1.5",
+  "build": 2025121025,
+  "description": "Contador de oyentes en tiempo real: muestra cuántas personas están escuchando el mismo podcast",
   "forceUpdate": true
 }
