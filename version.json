@@ -1,6 +1,6 @@
 {
-  "version": "7.0.1",
-  "build": 2025120918,
-  "description": "Nueva funcionalidad: Widget de Imágenes Bíblicas diarias. Contador de tiempo corregido para toda la app.",
+  "version": "7.1.0",
+  "build": 2025121020,
+  "description": "Sistema de podcasts RSS completo con reproductor global, modo offline, auto-limpieza de cache en actualizaciones",
   "forceUpdate": true
 }
