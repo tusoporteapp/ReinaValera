@@ -1,6 +1,6 @@
 {
-  "version": "7.1.1",
-  "build": 2025121021,
-  "description": "Diseño limpio y minimalista para página de podcast, mejor UX",
+  "version": "7.1.2",
+  "build": 2025121022,
+  "description": "Página de podcast simplificada: botones reorganizados (Reproducir, Like, Compartir), título en header, descarga removida",
   "forceUpdate": true
 }
