@@ -1,6 +1,6 @@
 {
-  "version": "7.1.5",
-  "build": 2025121025,
-  "description": "Contador de oyentes en tiempo real: muestra cuántas personas están escuchando el mismo podcast",
+  "version": "7.1.7",
+  "build": 2025121027,
+  "description": "Debug: listeners siempre visible, logging detallado para diagnóstico Firebase RTDB",
   "forceUpdate": true
 }
