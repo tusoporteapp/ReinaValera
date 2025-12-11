@@ -1,6 +1,6 @@
 {
-  "version": "7.1.0",
-  "build": 2025121020,
-  "description": "Sistema de podcasts RSS completo con reproductor global, modo offline, auto-limpieza de cache en actualizaciones",
+  "version": "7.1.1",
+  "build": 2025121021,
+  "description": "Diseño limpio y minimalista para página de podcast, mejor UX",
   "forceUpdate": true
 }
